@@ -42,7 +42,7 @@
         <url>https://github.com/Jardo-51/feign-reactive</url>
         <connection>scm:git:git://github.com/Jardo-51/feign-reactive.git</connection>
         <developerConnection>scm:git:git@github.com:Jardo-51/feign-reactive.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>2024-05-08_13-56_v4.1.0</tag>
     </scm>
 
     <properties>
