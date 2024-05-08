@@ -28,7 +28,7 @@
 
     <name>feign-reactive</name>
     <description>Use Feign client on WebClient</description>
-    <url>https://github.com/PlaytikaOSS/feign-reactive</url>
+    <url>https://github.com/Jardo-51/feign-reactive</url>
 
     <licenses>
         <license>
@@ -39,9 +39,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/PlaytikaOSS/feign-reactive</url>
-        <connection>scm:git:git://github.com/PlaytikaOSS/feign-reactive.git</connection>
-        <developerConnection>scm:git:git@github.com:PlaytikaOSS/feign-reactive.git</developerConnection>
+        <url>https://github.com/Jardo-51/feign-reactive</url>
+        <connection>scm:git:git://github.com/Jardo-51/feign-reactive.git</connection>
+        <developerConnection>scm:git:git@github.com:Jardo-51/feign-reactive.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -55,6 +55,9 @@
             <id>kptfh</id>
             <name>Sergii Karpenko</name>
             <email>sergey.karpenko@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Jaroslav Brtis</name>
         </developer>
     </developers>
 
