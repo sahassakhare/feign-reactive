@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.playtika.reactivefeign</groupId>
+    <groupId>com.jardoapps.reactivefeign</groupId>
     <artifactId>feign-reactor</artifactId>
     <version>4.0.3</version>
     <packaging>pom</packaging>
