@@ -47,7 +47,7 @@
 
 
         <!-- GPG -->
-        <gpg.keyname>3EEF24C7</gpg.keyname>
+        <gpg.keyname>32C7919B3C3E44468CE65C50105962C308469395</gpg.keyname>
         <gpg.defaultKeyring>false</gpg.defaultKeyring>
         <gpg.useagent>true</gpg.useagent>
         <gpg.lockMode>never</gpg.lockMode>
