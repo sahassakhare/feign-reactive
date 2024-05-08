@@ -2,12 +2,15 @@
 [![CircleCI](https://circleci.com/gh/Playtika/feign-reactive/tree/develop.svg?style=shield&circle-token=7436cccc44c3229204d0d94c3a1606feb02cb534)](https://circleci.com/gh/Playtika/feign-reactive/tree/develop)
 [![codecov](https://codecov.io/gh/Playtika/feign-reactive/branch/develop/graph/badge.svg)](https://codecov.io/gh/Playtika/feign-reactive)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ce80f97d24fb4371a9f71cf44e94b0b0)](https://www.codacy.com/app/PlaytikaGithub/feign-reactive?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Playtika/feign-reactive&amp;utm_campaign=Badge_Grade)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.playtika.reactivefeign/feign-reactor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.playtika.reactivefeign/feign-reactor)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.jardoapps.reactivefeign/feign-reactor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.jardoapps.reactivefeign/feign-reactor)
 
 
 # feign-reactive
 
 Use Feign with Spring WebFlux
+
+This fork was created in order to provide support for Spring Boot 3.2 since there is an [unresolved issue in the original project](https://github.com/PlaytikaOSS/feign-reactive/issues/651).
+Credit for the fix belongs to [ramzes3333](https://github.com/ramzes3333). I just relased a new version with his fix and published it to Maven Central.
 
 ## Overview
 
