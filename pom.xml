@@ -101,12 +101,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                        <gpgArguments>
-                        <arg>--pinentry-mode</arg>
-                        <arg>loopback</arg>
-                        <keyname>${env.GPG_PRIVATE_KEY}</keyname>
-                        <passphrase>${env.GPG_PASSPHRASE}</passphrase>
-                        </gpgArguments>
+                         <skip>true</skip>
                         </configuration>
                     </plugin>
                 </plugins>
