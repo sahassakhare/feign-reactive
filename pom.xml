@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.playtika.reactivefeign</groupId>
+    <groupId>com.devtools.reactivefeign</groupId>
     <artifactId>feign-reactor</artifactId>
-    <version>4.0.3</version>
+    <version>4.1.0</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -28,7 +28,7 @@
 
     <name>feign-reactive</name>
     <description>Use Feign client on WebClient</description>
-    <url>https://github.com/PlaytikaOSS/feign-reactive</url>
+    <url>https://github.com/sahassakhare/feign-reactive</url>
 
     <licenses>
         <license>
@@ -39,10 +39,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/PlaytikaOSS/feign-reactive</url>
-        <connection>scm:git:git://github.com/PlaytikaOSS/feign-reactive.git</connection>
-        <developerConnection>scm:git:git@github.com:PlaytikaOSS/feign-reactive.git</developerConnection>
-        <tag>HEAD</tag>
+        <url>https://github.com/sahassakhare/feign-reactive</url>
+        <connection>scm:git:git://github.com/sahassakhare/feign-reactive.git</connection>
+        <developerConnection>scm:git:git@github.com:sahassakhare/feign-reactive.git</developerConnection>        
     </scm>
 
     <properties>
@@ -55,6 +54,9 @@
             <id>kptfh</id>
             <name>Sergii Karpenko</name>
             <email>sergey.karpenko@gmail.com</email>
+        </developer>
+          <developer>
+            <name>sahas sakhare</name>
         </developer>
     </developers>
 

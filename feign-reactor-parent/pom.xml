@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.playtika.reactivefeign</groupId>
+        <groupId>com.devtools.reactivefeign</groupId>
         <artifactId>feign-reactor</artifactId>
-        <version>4.0.3</version>
+        <version>4.1.0</version>
     </parent>
 
     <artifactId>feign-reactor-parent</artifactId>
@@ -47,7 +47,7 @@
 
 
         <!-- GPG -->
-        <gpg.keyname>3EEF24C7</gpg.keyname>
+        <gpg.keyname>32C7919B3C3E44468CE65C50105962C308469395</gpg.keyname>
         <gpg.defaultKeyring>false</gpg.defaultKeyring>
         <gpg.useagent>true</gpg.useagent>
         <gpg.lockMode>never</gpg.lockMode>
@@ -86,67 +86,67 @@
                 <version>${rxjava2.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-webclient-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-webclient</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-webclient-jetty</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-webclient-apache-client5</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-jetty</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-java11</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-cloud</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-spring-configuration</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-core</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-webclient-core</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.playtika.reactivefeign</groupId>
+                <groupId>com.devtools.reactivefeign</groupId>
                 <artifactId>feign-reactor-server-configurations</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
