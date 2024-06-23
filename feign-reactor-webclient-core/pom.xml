@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.devtools.reactivefeign</groupId>
+        <groupId>io.github.sahassakhare</groupId>
         <artifactId>feign-reactor-parent</artifactId>
         <relativePath>../feign-reactor-parent</relativePath>
         <version>4.1.0</version>
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.devtools.reactivefeign</groupId>
+            <groupId>io.github.sahassakhare</groupId>
             <artifactId>feign-reactor-core</artifactId>
         </dependency>
 

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.devtools.reactivefeign</groupId>
+        <groupId>io.github.sahassakhare</groupId>
         <artifactId>feign-reactor</artifactId>
         <version>4.1.0</version>
     </parent>
@@ -86,67 +86,67 @@
                 <version>${rxjava2.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-webclient-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-webclient</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-webclient-jetty</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-webclient-apache-client5</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-jetty</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-java11</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-cloud</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-spring-configuration</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-core</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-webclient-core</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.devtools.reactivefeign</groupId>
+                <groupId>io.github.sahassakhare</groupId>
                 <artifactId>feign-reactor-server-configurations</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
