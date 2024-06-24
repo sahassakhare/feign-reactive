@@ -74,6 +74,9 @@
     <profiles>
         <profile>
             <id>ossrh</id>
+            <properties>
+            <gpg.keyname>5AA765F4BB1B6B90</gpg.keyname>
+            </properties>
             <build>
                 <plugins>
 <!--                    <plugin>-->
