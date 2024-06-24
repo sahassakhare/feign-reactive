@@ -26,8 +26,7 @@ jobs:
           gpg-passphrase: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD })
           cache: 'maven'
    
-      - id: install-secret-key
-        name: Install gpg secret key
+      - name: Install gpg secret key
         run: |
           # Install gpg secret key
           cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
