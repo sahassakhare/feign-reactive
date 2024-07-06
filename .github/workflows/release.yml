@@ -34,6 +34,11 @@ jobs:
           # Verify gpg secret key
           gpg --list-secret-keys --keyid-format LONG
 
+      - id: verify signing
+        run: |
+          gpg --list-keys
+          gpg --list-secret-keys
+      
       - name: Update version
         if: ${{ success() }}
         run: ./mvnw --batch-mode --no-transfer-progress versions:set -DnewVersion=${{github.event.release.tag_name}} versions:commit
